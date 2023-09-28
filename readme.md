@@ -10,7 +10,7 @@ npm install 1rm-calculator
 
 ## Global installation
 ````
-npm install 1rm-calculator
+npm install -g 1rm-calculator
 ````
 
 ## How to use

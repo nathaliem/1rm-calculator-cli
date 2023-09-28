@@ -4,7 +4,16 @@
 ![Preview](https://raw.githubusercontent.com/nathaliem/1rm-calculator-cli/main/.github/images/preview.png)
 
 ## Installation
-`npm install 1rm-calculator`
+````
+npm install 1rm-calculator
+````
+
+## Global installation
+````
+npm install 1rm-calculator
+````
 
 ## How to use
-`$ 1rm`
+````
+$ 1rm
+````

@@ -7,6 +7,10 @@
     "1rm": "./bin/index.js"
   },
   "author": "Nathalie Maes",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nathaliem/1rm-calculator-cli.git"
+  },
   "license": "MIT",
   "dependencies": {
     "boxen": "^5.1.2",

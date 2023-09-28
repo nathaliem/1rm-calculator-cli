@@ -1,6 +1,6 @@
 {
   "name": "1rm-calculator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Calculate your One Rep Max",
   "main": "./bin/index.js",
   "bin": {

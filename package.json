@@ -1,0 +1,16 @@
+{
+  "name": "1rm-calculator",
+  "version": "1.0.0",
+  "description": "Calculate your One Rep Max",
+  "main": "./bin/index.js",
+  "bin": {
+    "1rm": "./bin/index.js"
+  },
+  "author": "Nathalie Maes",
+  "license": "MIT",
+  "dependencies": {
+    "boxen": "^5.1.2",
+    "chalk": "^4.1.2",
+    "yargs-interactive": "^3.0.1"
+  }
+}

@@ -5,11 +5,6 @@
 
 ## Installation
 ````
-npm install 1rm-calculator
-````
-
-## Global installation
-````
 npm install -g 1rm-calculator
 ````
 

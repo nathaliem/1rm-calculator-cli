@@ -1,4 +1,6 @@
 #!/usr/bin/env node
+const { getOneRepMax } = require('@nathaliem/one-rep-max');
+
 const yargsInteractive = require('yargs-interactive');
 const chalk = require('chalk');
 const boxen = require('boxen');
@@ -45,10 +47,10 @@ yargsInteractive()
   .then(result => {
     let { weight, reps } = result;
 
-    weight = weight.replace(/,/g, '.').replace(/[^0-9\.]+/g, '');
-    reps = reps.replace(/,/g, '.');
+    weight = weight.toString().replace(/,/g, '.').replace(/[^0-9\.]+/g, '');
+    reps = reps.toString().replace(/,/g, '.');
 
-    const max = (weight / (1.0278 - 0.0278 * reps)).toFixed(2);
+    const max = getOneRepMax(weight, reps, 2, 'oconner');
     const styledMax = chalk.hex(theme.green).bold(`${max} kg`);
 
     console.log(boxen(`Your one rep max is estimated to be ${styledMax}`, { padding: 1, borderStyle: 'double', borderColor: theme.red }));

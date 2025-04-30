@@ -1,17 +1,18 @@
 {
   "name": "1rm-calculator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Calculate your One Rep Max",
   "bin": {
-    "1rm": "./bin/index.js"
+    "1rm": "bin/index.js"
   },
   "author": "Nathalie Maes",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nathaliem/1rm-calculator-cli.git"
+    "url": "git+https://github.com/nathaliem/1rm-calculator-cli.git"
   },
   "license": "MIT",
   "dependencies": {
+    "@nathaliem/one-rep-max": "^1.0.4",
     "boxen": "^5.1.2",
     "chalk": "^4.1.2",
     "yargs-interactive": "^3.0.1"
